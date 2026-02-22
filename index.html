@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ringo — Curated Collectibles</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Ringo</div>
+    <nav>
+      <a href="#new">New Arrivals</a>
+      <a href="#collections">Collections</a>
+      <a href="#story">Our Story</a>
+      <a href="#newsletter">Newsletter</a>
+    </nav>
+    <button class="menu-btn" aria-label="Toggle menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="new">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">EXCLUSIVE DROP · LIMITED UNITS</p>
+        <h1>Discover the world of <span>Ringo</span></h1>
+        <p class="subtitle">A premium marketplace for rare items, timeless design, and carefully curated collections.</p>
+        <a class="cta" href="#collections">Shop Collection</a>
+      </div>
+    </section>
+
+    <section class="featured" id="collections">
+      <div class="section-head">
+        <h2>Featured Collection</h2>
+        <a href="#">View all</a>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <div class="thumb thumb-one"></div>
+          <h3>Classic Capsule</h3>
+          <p>Contemporary essentials with museum-level craftsmanship.</p>
+          <span>$139.00</span>
+        </article>
+        <article class="card">
+          <div class="thumb thumb-two"></div>
+          <h3>Iconic Archive</h3>
+          <p>Curated pieces inspired by iconic objects and decades.</p>
+          <span>$219.00</span>
+        </article>
+        <article class="card">
+          <div class="thumb thumb-three"></div>
+          <h3>Edition Noir</h3>
+          <p>Minimal lines, deep tones, and premium materials.</p>
+          <span>$189.00</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="story" id="story">
+      <div>
+        <p class="eyebrow">ABOUT RINGO</p>
+        <h2>Built for collectors who value details.</h2>
+      </div>
+      <p>
+        Ringo brings boutique-level curation to a digital storefront. Every piece is selected for
+        character, longevity, and design value—so your next favorite item feels special from the first glance.
+      </p>
+    </section>
+
+    <section class="newsletter" id="newsletter">
+      <h2>Get first access to every drop</h2>
+      <form>
+        <input type="email" placeholder="Email address" aria-label="Email address" />
+        <button type="submit">Join Ringo</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Ringo. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
